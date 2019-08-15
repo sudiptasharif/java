@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-01-20T09:17:57.219005Z</date>
+  <millis>1547975877219</millis>
+  <nanos>5000</nanos>
+  <sequence>0</sequence>
+  <logger>logger.MyLogger</logger>
+  <level>SEVERE</level>
+  <class>logger.MyLogger</class>
+  <method>setUpJavaAPILogger</method>
+  <thread>1</thread>
+  <message>Test Severe. Should Showup both in console and in the local file.</message>
+</record>
+<record>
+  <date>2019-01-20T09:17:57.245402Z</date>
+  <millis>1547975877245</millis>
+  <nanos>402000</nanos>
+  <sequence>1</sequence>
+  <logger>logger.MyLogger</logger>
+  <level>FINE</level>
+  <class>logger.MyLogger</class>
+  <method>setUpJavaAPILogger</method>
+  <thread>1</thread>
+  <message>Test Fine. Should only show up in local file.</message>
+</record>
+</log>
